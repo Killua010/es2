@@ -1,0 +1,101 @@
+/* 
+* Estilo das paginas da Plataforma de negociação de mercadorias online
+* Daniel Dias de Souza - 04/09/2017 -  Versão 1.0
+*/
+.nav-side-menu{/* Estilo do side-bar */
+  font-family: verdana;
+  background-color: #2e353d;
+  position: fixed;
+  top: 0px;
+  width: 300px;
+  height: 100%;
+}
+
+.size{
+	font-family: Lucida Handwriting;
+	text-align: center;
+	font-size: 23px !important;
+	margin-bottom: 0;
+	margin-left: 10px;
+}
+
+.black{
+	background-color: rgba(0,0,0,0.6)!important;
+}
+
+.none-margin{/* Estilo para retirar a margem */
+	margin: 0;
+}
+
+.btn-padding{/* Estilo para colocar uma margin-top no botão submit */
+	margin-top: 15px!important;
+}
+.hide-lg-table,
+.hide-lg{/* Estilo para esconder conteudos nas resoluções maiores que 992px de largura */
+	display: none;
+}
+
+.btn-bottom{
+	margin-top: 35px!important;
+}
+
+.margin{
+	margin: 20px 0 20px 20px;
+}
+
+label{
+	margin: 8px;
+}
+
+.container-side { /* Estilo do container com side-bar */
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+	position: absolute;
+	left: 320px;
+	max-width: 820px;
+}
+
+.nav-logo{
+	padding: 0 !important;
+}
+
+.logo{
+	width: 300px;
+	margin: 0;
+	padding: 0;
+}
+
+@media (max-width: 1200px){
+	.container-side {/* Estilo do container com side-bar com resolução menor que 1200px de largura */
+	    max-width: 720px;
+	}
+}
+
+@media(max-width: 992px){
+	.container-side {/* Estilo do container com side-bar com resolução menor que 992px de largura */
+	    max-width: 640px;
+	    left: auto;
+	    position: relative;
+	}
+
+	.nav-side-menu{/* Estilo do nav-side responsivo */
+		position: relative;
+		width: auto;
+		height: auto;
+	}	
+
+	.hide-lg{ /* Estilo para mostrar conteudos escondidos em resoluções maiores que 992px de largura */
+		display: inline;
+	}
+
+	.hide-sm{ /* Estilo para esconder conteudos com resolução de até 992px de largura */
+		display: none;
+	}
+
+	.hide-lg-table{/* Estilo para mostrar tabelas em resoluções de até 992px de largura*/
+		display: table;
+	}
+}

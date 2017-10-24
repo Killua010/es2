@@ -1,0 +1,167 @@
+.padding-top{
+	padding-top: 70px;
+}
+
+.img-max{
+	max-height: 170px;
+}
+
+.margin-sm{
+	margin: 10px auto 10px auto;
+}
+
+#melhor-aluno{/*cursos.html*/
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+
+.img-aluno{/*cursos.html*/
+	width: 320px;
+	height: 320px;
+}
+
+.img-curso{/*cursos.html*/
+	margin-left: 5px !important;
+	margin-right: 5px !important;
+	width: 740px;
+}
+
+.principal-curso{/*cursos.html*/
+	background-color: #8d1829;
+	padding-bottom: 30px;
+}
+
+#carousel-noticias{
+	background-color: #8d1829;
+	padding-bottom: 30px;
+}
+
+#noticias-gerais{
+	background-color: #293352; 	
+}
+
+#rodape{
+	background-color: #444;
+}
+
+#parcerias{
+	padding-top: 25px !important;
+	margin-bottom: 25px;
+}
+
+#rodape{
+	color: white;
+}
+
+.sliders{
+	margin-top: 25px;
+}
+
+.nopadding{
+	padding: 0;
+}
+
+.no-margin-top{
+	margin-top: 0;
+}
+
+.descricao{
+	color: white;
+}
+
+.video{
+	width: 360px;
+	height: 360px;
+}
+
+.search{
+	margin-right: 7px;
+}
+
+.padding-md{
+	padding: 20px;
+}
+
+.img-slide{
+	height: 320px !important;
+}
+
+@media (max-width: 1200px){
+	.video{
+		width: 300px; 
+		height: 300px;
+	}
+
+	.search{
+		margin-right: 0;
+		padding: 0;
+	}
+
+	.input-sm{
+		width: 10px;
+		padding: 0;
+		margin: 0;
+	}
+
+	.btn-sm{
+		padding: 5px 0px;
+		width: 80px;
+	}
+
+	.img-curso{/*cursos.html*/
+		margin-left: auto !important;
+		width: auto;
+	}
+
+	.img-aluno{
+		height: 270px;
+		width: 270px;
+	}
+}
+
+@media(max-width: 1063px){
+	.search{
+		display: none;
+	}
+
+	.img-aluno{
+		height: 220px;
+		width: 220px;
+	}
+}
+
+@media(max-width: 992px){
+	.img-slide{
+		height: auto;
+		max-height: 250px;
+	}
+
+	.video{
+		width: 100%;
+		height: 325px;
+	}
+
+	.hidden-sm{
+		display: none;
+	}
+
+	.img-aluno{
+		height: 200px;
+	}
+}
+
+@media(max-width: 620px){
+	.video{
+		width: 100%;
+	}
+
+	.img-slide{
+		height: auto;
+		max-height: 180px;
+	}
+
+	.img-aluno{
+		height: 120px;
+	}
+}
+
