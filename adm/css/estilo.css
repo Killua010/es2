@@ -4,7 +4,7 @@
 */
 .nav-side-menu{/* Estilo do side-bar */
   font-family: verdana;
-  background-color: #2e353d;
+  background-color: #3e635b;
   position: fixed;
   top: 0px;
   width: 300px;
@@ -19,8 +19,19 @@
 	margin-left: 10px;
 }
 
-.black{
-	background-color: rgba(0,0,0,0.6)!important;
+.dark{
+	background-color: #282e33!important;
+}
+
+.btn-green{
+	background-color: #3e635b;
+	color: white;
+}
+
+.btn-green:hover{
+	color: black;
+	background-color: #3f6f5f;
+	text-decoration: underline!important;
 }
 
 .none-margin{/* Estilo para retirar a margem */
